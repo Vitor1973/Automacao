@@ -1,6 +1,7 @@
 
 class LoginPage < SitePrism::Page
 
+
   element :botao, "#signup"
   element :campo_name, '#name-sign-up'
   element :campo_login, '#login-sign-up'
